@@ -1,0 +1,17 @@
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: silver;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footerbox
+{
+	height: 180px;
+	width: 300px;
+	float: left;
+	color: black;
+	text-align: center;
+}

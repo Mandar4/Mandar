@@ -1,0 +1,21 @@
+.contact
+{
+	width: 100%;
+	height: 470px;
+	border: 0px solid blue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.contact_content
+{
+	width: 50%;
+	height: 450px;
+	border: 0px solid green;
+	float: left;
+}
+.contact_content iframe
+{
+	justify-content: space-around;
+	align-items: center;
+}

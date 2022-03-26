@@ -1,0 +1,72 @@
+.top_cat
+{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.top_cat_pro
+{
+	border: 0px solid red;
+	width: 375px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px 5px grey;
+	transition: transform 1s;
+}
+.top_cat_pro:hover
+{
+	transform: scale(1.1);
+}
+.top_cat_pro img
+{
+	width:100%;
+	height:70%;
+}
+.checked
+{
+	color:orange;
+}
+.starr
+{
+	border: 0px solid black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title p
+{
+	text-align: center;
+	font-size: 17px;
+}
+.title b
+{
+	color: green;
+	font-size: 18px;
+}
+.button
+{
+	border: 0px solid green;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button input
+{
+	height: 30px;
+	width: 130px;
+	border-radius: 10px;
+	border: 0px;
+	background-color: orange;
+	font-size: 15px;
+	box-shadow: 5px 5px 2px 2px grey;
+}
+.button input:hover
+{
+	background-color: green;
+	color: white;
+}
